@@ -1,0 +1,16 @@
+# Site settings
+title: Ephie Rowe
+email: ephie@ephierowe.co.uk
+description: >
+  Pre-natal and post-natal exercise classes by Ephie Rowe
+keywords: >
+  pre-natal exercise,ante-natal exercise,ante natal exercise,post-natal exercise,pre-natal,ante-natal,ante natal,post-natal,prenatal exercise,antenatal exercise,postnatal exercise,prenatal,antenatal,postnatal,new mother,new mum,fitness,exercise,ephie,rowe,ephie rowe,personal training
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ephierowe.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-3090834-1
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
