@@ -7,6 +7,16 @@
     <img id=headerfigure src="{{ "assets/header-figure.png" | relative_url }}" width=57 height=292 alt=Figure>
 
     <nav class=site-nav>
+      <input type=checkbox id=menu-toggle>
+      <label for=menu-toggle>
+        <svg width="24" height="22" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <g fill="currentColor">
+            <rect width="24" height="4" x="0" y="2"/>
+            <rect width="24" height="4" x="0" y="9"/>
+            <rect width="24" height="4" x="0" y="16"/>
+          </g>
+        </svg>
+      </label>
       <ul class=menu id=mainmenu>
         {% assign pages = site.pages | sort:"weight" %}
         {% for node in pages %}
