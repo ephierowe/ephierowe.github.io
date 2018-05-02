@@ -3,11 +3,7 @@ layout: default
 title: Home
 ---
 
-Ephie Rowe
-==========
-
-
-## Welcome
+# Welcome
 
 My name is Ephie and I have been working in the fitness industry for the past
 seven years. Since completing my degree in Sport and Exercise Science I knew I
