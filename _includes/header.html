@@ -23,7 +23,7 @@
         {% assign pages = site.pages | sort:"weight" %}
         {% for node in pages %}
           {% if node.title %}
-            <li>
+            <li {% if node.url == "/" %} class=home {% endif %}>
               {% if page.url == node.url %}
                 <span class=active>
                   {{ node.title | escape }}

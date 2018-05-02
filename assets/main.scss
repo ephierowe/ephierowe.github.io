@@ -206,6 +206,12 @@ img#headerfigure {
       float: none;
       display: inline-block;
 
+      &.home {
+        @media (min-width: 850px) {
+          display: none;
+        }
+      }
+
       a, span.active, a.active, span.disabled {
         display: block;
         position: relative;
