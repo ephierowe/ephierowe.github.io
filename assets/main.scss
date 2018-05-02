@@ -109,22 +109,31 @@ p {
 
 h1#mainheader {
   margin: 0;
-}
 
-img#headertext {
-  display: block;
-  position: absolute;
-  z-index: 5;
-  left: 32px;
-  bottom: -69px;
-  @media (max-width: 640px) {
-    width: 65%;
-    height: auto;
-    left: auto;
-    bottom: auto;
-    top: calc(118px - 14vw);
+  a {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    left: 32px;
+    bottom: -69px;
+
+    @media (max-width: 640px) {
+      width: 65%;
+      left: auto;
+      bottom: auto;
+      top: calc(118px - 14vw);
+    }
+  }
+
+  img {
+    display: block;
+    @media (max-width: 640px) {
+      width: 100%;
+      height: auto;
+    }
   }
 }
+
 img#headerfigure {
   display: block;
   position: absolute;
