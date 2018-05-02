@@ -14,15 +14,18 @@ html, body {
   height: 100%;
 }
 
+html {
+  font-family: Lato, "Gill Sans", sans-serif;
+  font-size: 12pt;
+  line-height: 1.4;
+  background-color: $background;
+  color: #89aba0;
+}
+
 body {
   border: 0;
   padding: 0;
   margin: 0;
-  font-family: Lato, "Gill Sans", sans-serif;
-  color: #89aba0;
-  font-size: 12pt;
-  line-height: 1.4;
-  background-color: $background;
 }
 
 a {
